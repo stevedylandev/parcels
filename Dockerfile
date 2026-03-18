@@ -25,6 +25,6 @@ COPY --from=builder /app/target/release/parcels ./parcels
 COPY --from=builder /app/static ./static
 COPY --from=builder /app/templates ./templates
 
-EXPOSE 3000
+EXPOSE 3012
 
 CMD ["./parcels"]

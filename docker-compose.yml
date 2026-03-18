@@ -2,7 +2,7 @@ services:
   parcels:
     build: .
     ports:
-      - "3000:3000"
+      - "3012:3012"
     volumes:
       - parcels_data:/app/data
     env_file:
