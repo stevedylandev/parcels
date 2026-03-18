@@ -75,7 +75,7 @@ pub fn format_unix_to_datetime_pub(days: u64, h: u64, m: u64, s: u64) -> String 
 
 pub fn build_session_cookie(token: &str, secure: bool) -> String {
     let mut cookie = format!(
-        "session={}; HttpOnly; SameSite=Strict; Path=/",
+        "session={}; HttpOnly; SameSite=Strict; Path=/; Max-Age=604800",
         token
     );
     if secure {
