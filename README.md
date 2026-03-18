@@ -1,6 +1,6 @@
 # Parcels
 
-![cover](static/og.png)
+![cover](https://files.stevedylan.dev/parcels-demo.png)
 
 A minimal package tracking app
 
