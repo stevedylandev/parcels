@@ -12,6 +12,8 @@ COPY src ./src
 COPY templates ./templates
 COPY static ./static
 
+# Touch source files so Cargo sees them as newer than the stub binary
+RUN find src -name "*.rs" | xargs touch
 RUN cargo build --release
 
 # ── Runtime ───────────────────────────────────────────────────────────────────
