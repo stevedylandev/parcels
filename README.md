@@ -5,7 +5,7 @@
 A minimal package tracking app
 
 >[!NOTE]
->Parcels currently only supports USPS tracking. If you're interested in adding other providers please feel free to open an issue
+>OG is now part of [Andromeda](https://github.com/stevedylandev/andromeda)
 
 ## Quickstart
 
